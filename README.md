@@ -20,7 +20,7 @@ The problem might involve teaching an agent to interact optimally with an enviro
 ### Name:APARNA.M
 ### Register Number:212223220008
 
-Include the SARSA Learning function
+```
 
 def sarsa(env,
           gamma=1.0,
@@ -53,6 +53,7 @@ def sarsa(env,
     V = np.max(Q, axis=1)
     pi = lambda s: {s:a for s, a in enumerate(np.argmax(Q, axis=1))}[s]
     return Q, V, pi, Q_track, pi_track
+```
 
 ## OUTPUT:
 <img width="719" height="263" alt="image" src="https://github.com/user-attachments/assets/bd91cfa8-eafb-4208-9a10-a66ebd416a67" />
