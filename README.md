@@ -69,8 +69,8 @@ def sarsa(env,
 
 
 
+<img width="883" height="655" alt="image" src="https://github.com/user-attachments/assets/c4183cbc-8c87-43a7-aa45-b64d702d7593" />
 
-<img width="883" height="655" alt="image" src="https://github.com/user-attachments/assets/df0d8f5c-5e8d-452a-8c18-14101b0db138" />
 
 ## RESULT:
 Thus, to implement SARSA learning algorithm is executed successfully.
